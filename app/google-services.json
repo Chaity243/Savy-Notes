@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "763441418333",
+    "firebase_url": "https://savy-notes.firebaseio.com",
+    "project_id": "savy-notes",
+    "storage_bucket": "savy-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763441418333:android:df85053d1a2fe594683db4",
+        "android_client_info": {
+          "package_name": "com.smartappworld.savynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763441418333-aooiovhm08ah4vktd53ajrggjru5uhv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartappworld.savynotes",
+            "certificate_hash": "325691dd58e56b40de851e8419d7acd45f86bb46"
+          }
+        },
+        {
+          "client_id": "763441418333-ggl0uocdham8e40trgb6shd9ngjv5kcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbq4WNx4h-ou11aWsA90EVj2YD8sdR4Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763441418333-ggl0uocdham8e40trgb6shd9ngjv5kcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
