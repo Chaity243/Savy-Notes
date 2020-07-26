@@ -1,43 +1,20 @@
 # Introduction
 
-🗒️ Savy Note is a Kotlin based app to manage notes.All Changes in database is pushed to Firebase Realtime Database.App respects its Mvvm architecture. Android Architecture Components
-Part of Android Jetpack. Android architecture components are a collection of libraries that help 
-you design robust, testable, and maintainable apps. 
+🗒️ Savy Note is a Kotlin based app to manage notes.  All Changes in database is pushed to Firebase Realtime Database. App follows MVVM architecture and uses Android Jetpack.
+
+**Android Jetpack** is a collection of libraries that help you design robust, testable, and maintainable apps. 
+
+
+------------
+
 
 <h4>Features</h4>
-<ul>
-    <li>Google Sign In</li>
-  <li>Add Note</li>
-   <li>Delete Note</li>
-   <li>Edit Note</li>
-    <li>Push Changes to Firebase</li>
-  </ul>
+- Google Authentication
+- Add Note
+- Delete Note
+- Edit Note
 
-
-<h4>Screenshots</h4>
-<table>
-<thead>
-<tr>
-<th align="center">Add Notes</th>
-<th align="center">Edit Notes</th>
-<th align="center">Delete Notes</th>
-    <th align="center">Google Sign In</th>
-    <th align="center">Firebase Realtime Database</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> <img src="app/src/main/res/drawable/add.gif" width="150" ></td>
-<td> <img src="app/src/main/res/drawable/edit2.gif" width="150" ></td>
-<td> <img src="app/src/main/res/drawable/delete.gif" width="150" ></td>
-    <td> <img src="app/src/main/res/drawable/Screenshot_2020-02-24-14-09-33-108_com.smartappworld.savynotes.jpg" width="150"</td>
-        <td> <img src="app/src/main/res/drawable/Screenshot 2020-02-24 at 2.57.09 PM.png" width="150" ></td>
-    
-</tr>
-</tbody>
-</table>
-
-
+------------------------------------------------------------------
 <h4>Architecture</h4>
 
 MVVM is one of the architectural patterns which enhances separation of concerns, it allows
@@ -57,11 +34,8 @@ and can return RxJava, Flowable and LiveData observables.</li>
 that isn't destroyed on app rotations.</li>
 <li>Repository: The repository depends on a persistent data model and a remote backend data source.</li>
 
-<img src="app/src/main/res/drawable/arc.png" width="700" >
-<br>
-
-
- <h4>Library used</h4>
+---------------------------------------------------------
+<h4>Library used</h4>
 <ul>
 <li><a href="https://developer.android.com/topic/libraries/architecture/room" target="_blank">Room</a></li>
 <li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel" target="_blank">Viewmodel</a></li>
